@@ -1,0 +1,140 @@
+idc系统：
+1.http://isp-control.net/
+2.GNUHH    http://hostingsoftware.net/
+
+
+
+
+开源界已经产生了如此多优秀的免费的虚拟主机管理系统：ZPanel，web-cp，VHCS，virtualmin，PHPMyWebHosting，SysCP。
+
+1. ZPanel – 在Windows下的免费Hosting Panel
+ZPanel已经更名为RapidCP，最新版本为RapidCP 3.0
+网址：
+http://sourceforge.net/projects/zpanel/
+http://www.rapidcp.com/
+
+RapidCP新功能介绍：http://www.rapidcp.com/features/
+ZPanel 2.6 is the latest stable release. It is recommended for production environments.
+RapidCP 3.0 is the latest beta release. It is intended for testing purposes only.
+
+2. web-cp – *nix的虚拟主机管理
+网址：
+http://sourceforge.net/projects/webcp/
+http://www.web-cp.net/
+用PHP－CLI写的一个Web服务器
+支持多种脚本Scripting PHP,sun asp,cf,perl…
+支持shell access
+支持 SSI
+支持.htacess
+支持多种DNS服务 bind,powerdns,mydns,tinydns
+完全使用PHP开发，支持Shell Access
+要安装PHP CLI(Command-LIne ) 控制面板的后端服务器 server/webcp.php 和 httpd服务器 server/webcp-httpd.php 都需要 PHP CLI二进制支持，以便能够操作系统进程
+个人：个人信息，密码，邮件,ftp
+域:允许域的所有者在该域下增删用户，设定别名，子域名，数据库
+销售商:增加domain
+服务器: 监视服务，管理服务
+
+3. VHCS – Virtual Hosting Control System
+支持*nix系统的，用Perl和C实现核心功能，PHP实现管理界面。
+网址：
+http://sourceforge.net/projects/vhcs/
+http://www.vhcs.net/
+
+4、webmin的虚拟主机管理模块virtualmin
+webmin是一个可运行于Linux/freebsd的web界面的主机管理系统，有中文包
+而virtualmin则是它的一个虚拟主机管理模块，提供中文支持。
+webmin官方站： http://www.webmin.com/
+virtaulmin站点： http://www.swelltech.com/virtualmin/
+
+5、基于php/mysql的虚拟主机控制程序PHPMyWebHosting
+PHPMyWebHosting是个开源的，基于php/mysql的虚拟主机控制面板程序，你可以用它建立带有邮箱，mysql支持的多域名虚拟主机，它须建立在Linux/freebsd之上，不支持windows。
+安装phpmywebhosting你必须拥有系统管理员(root)权限，并依次安装以下套件：
+MySQL
+Apache and PHP
+Postfix
+Maildrop
+Courier
+ProFTPd
+PHPMyWebHosting
+官方站上有基于各平台详细的安装说明 http://www.ladse.de
+phpmywebhosting下载：http://www.ladse.de/index.php/Files
+
+6、SysCP虚拟主机管理系统[全php版]
+1.有中文包
+2.admin,reseller,client 三级管理
+3.全部为php代码构成
+4.有不少模块(modules)供选择安装
+5.开源，免费（基于GPL）
+6.Linux/bsd环境，特别是debian(最初是专为它开发的)
+是德国人写的，有简体中文,英文,法文，德文语言包，是多语言的
+具有以下特性：
+Customer Interface
+* managing email accounts
+* managing email forwarders
+* managing subdomains
+* managing mysql databases
+* managing additional ftp account
+* managing .htaccess password protections for directories
+* managing path options for example directorylisting
+Admin Interface:
+* managing of customers: you can define exactly what kind of resources your customers get (e.g. amount of pop accounts, amount of mysql databases etc.)
+* manage domains: you can individualy edit zone files and directory index per domain
+支持以下配套服务器或引擎：
+# webserver: [Apache 1.3] with [PHP4] (apache2.0.x也可以)
+# mail transfer agent: [Postfix]
+# pop/imap server: [Courier]
+# ftp server: [ProFTPd]
+# database server: [MySQL]
+# nameserver: [Bind9]
+# traffic accounting and statistics: [Webalizer]
+官方站：http://www.syscp.de/
+下载：http://www.syscp.de/wiki/EnDownloads
+模块下载：http://modules.syscp.de/
+在线演示：http://www.syscp.de/onlinedemo/index.php#p#副标题#e#
+Webmin是目前功能最强大的基于Web的Unix系统管理工具
+Webmin是目前功能最强大的基于Web的Unix系统管理工具。管理员通过浏览器访问Webmin的各种管理功能并完成相应的管理动作。目前 Webmin支持绝大多数的Unix系统，这些系统除了各种版本的linux以为还包括：AIX、HPUX、Solaris、Unixware、Irix 和FreeBSD等。
+Webmin 让您能够在远程使用支持 HTTPS (SSL 上的 HTTP)协议的 Web 浏览器通过 Web 界面管理您的主机。这在保证了安全性的前提下提供了简单深入的远程管理。这使得 Webmin 对系统管理员非常理想，因为所有主流平台都有满足甚至超出上述需求的 Web 浏览器。而且，Webmin 有其自己的“Web 服务器”，因此不需要运行第三方软件(比如 Web服务器)。万事具备。Webmin 的模块化架构允许您在需要时编写您自己的配置模块。除了在此介绍的模块之外，Webmin 还包括许多模块。尽管目前我们将主要关注网络服务，但是您会看到，几乎您系统的每一部分都能够通过 Webmin 来配置和管理。
+开源主机/虚拟主机管理系统
+ISPCONFIG:安装简单,可以满足基本的虚拟主机服务商需求.
+VHCS:感觉安装复杂,相关说明文档少.
+WEB-CP,SYSCP:功能有点弱.
+PHPMyWebHosting:需要改动的东西很多.
+GNUHH:功能最强大,管理模块最多,用户和管理员的操作流程也比较清晰.推荐系统管理员和IDC使用.
+评价参考
+用户群最多的 VHCS. 而 Web-CP,DTC和SysCp也都有许多用户
+功能最强大的 GNU Hosting Helper 支持机群，文档，订单
+单机版本功能最强大的是ISPConfig
+结构最好的 SysCP, 采用类似结构的有Web-Cp,DTC,VHCS
+结论：大型IDC，推荐GNU Hosting Helper,备选ISPMan
+单台主机，推荐 VHCS2,备选 Web-CP,DTC,ISPConfig,WHT,RavenCore(推荐程度依次降低,其实这几个系统都不错，看个人的喜好了)
+DTC是一个即适合单机使用，也适合集群使用的主机管理系统，Apple欧洲公司就是选用这套系统在Mac OS X上使用
+——————————–华丽的分割线———————————-
+Case1: ISPConfig
+Download ==) http://www.ispconfig.org/downloads.htm
+Forums ==) http://www.howtoforge.com/forums
+The current version is: 2.2.22 (== 2008/15/04
+Case2: ISP-Manager
+Download ==) http://www.projektfarm.com/updates_en.html
+The current version is: 2.0.4 (== 2005/24/10
+ispconfig使用手冊
+ispconfig user_guide ==) http://ispconfig.org/downloads/manual_big5/toc.html
+中文版的管理員手冊_chinese: Administrator manual
+ref: http://ispconfig.org/downloads/manua…n_big5_src.htm
+中文版的reseller手冊_chinese: Reseller manual
+ref: http://ispconfig.org/downloads/manua…r_big5_src.htm
+中文版的客戶手冊_chinese: Clients manual
+ref: http://ispconfig.org/downloads/manua…e_big5_src.htm
+———————————-再分————————————–
+一些獨立主機之_Control_Panel_全部都免費.
+1. xpanel.com
+2. webmin
+3. webcp ==) http://web-cp.net/
+4. vhcs.net
+5. isp-control.net
+6. syscp ==) http://www.syscp.de
+7. dtc ==) http://www.gplhost.com/?rub=softwares&sousrub=dtc
+8. zpanel ==) http://www.thezpanel.com/
+9. http://phpanel.net
+0. http://www.ispconfig.org/
+a. http://www.parsv.com/winpanel.htm
+b. http://cubepanel.com/download/index.htm
