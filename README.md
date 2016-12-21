@@ -1,2 +1,2 @@
 # Linuxrunning
-all code for running linux
+all code for running and maintaining Linux.
